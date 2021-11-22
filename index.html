@@ -5,12 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olá :)</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+/* body{
+  background-color:#5D737E;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.foto-fer{
+  border-radius: 100px;
+}
+#ferbio{
+  font-family: fantasy;
+  font-size: 25px;
+  font-style: italic;
+}
+.listaul{
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration:none;
+}
+.hobbiesclass{
+  font-size: 20px;
+  line-height: 35px;
+}
+.qualidadesclass{
+  font-size: 25px;
+  line-height: 35px;
+}
+.button{
+  color: white;
+  background-color:#036b52;
+  padding: 3px 3px;
+  border-radius: 100px;
+  text-decoration: none;
+} */
+    </style>
 </head>
 <body>
-<h1>Fernando Sousa Bissi</h1>
-<img id="Eu" src="./fernando-bissi.jpeg" alt="uma foto minha" width="300px">
-<p><em>Olá, eu tenho 25 anos, e nasci e moro em São Bernardo do Campo - São Paulo, sou estudante da Trybe e estou aprendendo programação totalmente do 0!</em></p>
-<ul>
+<h1 style="text-align: center;">Fernando Sousa Bissi</h1>
+<center><img class="foto-fer" id="Eu" src="./fernando-bissi.jpeg" alt="uma foto minha" width="300px"></center>
+<p id="ferbio">Olá, eu tenho 25 anos, sou Brasileiro, nasci e moro em <span style="color: rgb(250, 119, 119);"> São Bernardo do Campo - São Paulo</span>, sou estudante da Trybe e estou aprendendo programação totalmente do 0!</p>
+<ul class="listaul">
   <li>
     <a href="#hobbies">Hobbies</a>
   </li>
@@ -21,43 +57,29 @@
     <a href="#trybe"><img id="Eu">Sobre a Trybe</a>
   </li>
 </ul>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <hr>
 <h3 id="hobbies">Hobbies</h3>
 <ul>
-<li><strong>Amante por jogos de RPG</strong></li>
-<li>Maratonar series</li>
-<li>Asssitir Animes</li>
-<li>Shopping</li>
-<li>Cinema</li>
-<li>Sair para comer</li>
+<li class="hobbiesclass"><strong>Amante por jogos de RPG</strong></li>
+<li class="hobbiesclass">Maratonar series</li>
+<li class="hobbiesclass">Asssitir Animes</li>
+<li class="hobbiesclass">Shopping</li>
+<li class="hobbiesclass">Cinema</li>
+<li class="hobbiesclass">Sair para comer</li>
 </ul>
 <hr>
 <h3 id="qualidades">Qualidades</h3>
 <ul>
-<li>Sou bem compreensivo</li>
-<li>Persistente</li>
-<li>Empático</li>
-<li><strong>Organizado</strong></li>
+<li class="qualidadesclass">Sou bem compreensivo</li>
+<li class="qualidadesclass">Persistente</li>
+<li class="qualidadesclass">Empático</li>
+<li class="qualidadesclass"><strong>Organizado</strong></li>
 </ul>
 <hr>
 <h3>Sobre a Trybe</h3>
 <p>É uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional de quem estuda conosco. Com o Modelo de Sucesso Compartilhado (MSC), a pessoa estudante tem a opção de pagar apenas quando já estiver trabalhando.</p>
 <img id="trybe" src="./trybelogo" alt="Logo da Trybe"width="300px">
 <br>
-<a href="https://www.betrybe.com/" target="_blank"><strong>#GoTrybe!</strong></a>
+<a href="https://www.betrybe.com/" target="_blank" class="button" ><strong>#GoTrybe!</strong></a>
 </body>
 </html>

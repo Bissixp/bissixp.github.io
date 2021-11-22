@@ -1,0 +1,33 @@
+body{
+    background-color:#5D737E;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  .foto-fer{
+    border-radius: 100px;
+  }
+  #ferbio{
+    font-family: fantasy;
+    font-size: 25px;
+    font-style: italic;
+  }
+  .listaul{
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration:none;
+  }
+  .hobbiesclass{
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .qualidadesclass{
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .button{
+    color: white;
+    background-color:#036b52;
+    padding: 3px 3px;
+    border-radius: 100px;
+    text-decoration: none;
+  }
